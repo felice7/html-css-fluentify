@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #0D325A;
+    height: 500px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.container {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.header_left {
+    width: 60%;
+    height: 70px;
+    float: left;
+
+}
+
+.header_right {
+    width: 40%;
+    height: 70px;
+    float: left;
+
+}
+
+#navbar {
+    height: 70px;
+
+}
+#navbar_item ul {
+    list-style-type: none;
+    float: right;
+
+}
+#navbar_item li {
+    line-height: 50px;
+    padding: 10px;
+    margin-right: 30px;
+    float: left;
+
+}
+#navbar_item li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+#navbar_item li a:hover {
+    color: orange;
+
+}
+
+a img {
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.cta_container {
+    float: right;
+    padding: 10px;
+
+}
+.cta_container a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px;
+    line-height: 50px;
+    margin-right: 10px;
+
+}
+
+#Tutor {
+    font-size: 12px;
+
+}
+#Login {
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 2px 10px;
+    border-width: thin;
+
+}
+#Struttura_piano {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    border-bottom: 30px;
+    padding: 2px 10px;
+
+}
+
+#jumbo {
+    width: 50%;
+    color: white;
+    position: relative;
+    height: 164px;
+    top: calc(((100% -164px ) / 2) - 80px);
+
+}
+#jumbo h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+#Struttura_piano_button{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 30px;
+    color: white;
+
+}
+#jumbo_sfondo .sfondo {
+    width: 1000px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+
+}
+
+#content {
+    background-color: #f9f9f9;
+    height: 200px;
+    position: relative;
+    margin-top: 100px;
+
+}
+.content_title{
+    text-align: center;
+    line-height: 50px;
+    padding: 50px;
+}
+.content_title h2 {
+    color: black;
+    font-size: 30px;
+}
+.content_title p {
+    color: black;
+    font-size: 20px;
+}
+
+#container2 {
+    width: 50%;
+    padding: 20px;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+
+}
+
+.container_left  {
+    width: 33%;
+    position: relative;
+    float: left;
+    padding: 30px;
+
+}
+.container_center  {
+    width: 33%;
+    position: relative;
+    float: left;
+    padding: 30px;
+}
+.container_right  {
+    width: 33%;
+    position: relative;
+    float: left;
+    padding: 30px;
+
+}
+h3 {
+    text-align: center;
+    color: green;
+    font-size: 25px;
+}
+img {
+
+}
